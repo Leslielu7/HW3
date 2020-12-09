@@ -1,0 +1,86 @@
+
+
+
+H1{
+	float:left;
+	padding:10px 10px 10px 10px;
+	color: gray;
+	font-family: monospace;
+}
+
+body {   
+    background-color:#CDD6E1;
+    background-repeat: no-repeat;
+    background-size: 1280px 800px;
+    
+}
+
+
+.imgContainer img {
+	overflow: hidden;
+  width: 100%;
+  height: 10%;
+  
+  
+}
+
+.menubutton{
+  display: inline-block;
+  float: left;
+  background-color: #CDD6E1;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  font-family:monospace;
+  padding: 10px;
+  width: 33.3%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0;
+  opacity: 0.9;
+    }
+.menubutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.7s;
+}
+
+.menubutton:hover{
+background-color:#3e526b;
+}
+
+.menubutton:hover span {   
+  padding-right: 20px;
+  transition: 0.7s;
+}
+
+.menubutton span:after {
+  
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.6s;
+}
+
+.menubutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.contentbox{
+	margin-left: auto;
+	margin-top: 5px;
+	background-size: 50% ;
+	background-color: white;
+	font-size: 25px;
+	font-family: monospace;
+	padding: 10px 10px 10px 10px;
+	color: gray;
+}
